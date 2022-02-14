@@ -1,0 +1,91 @@
+.image-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 300px;
+    max-width: 800px;
+    column-gap: 10px;
+  }
+  
+  .h2 {
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    color: rgb(34, 34, 34);
+  
+  }
+  
+  .icon-bar {
+    margin-bottom: 15px;
+    width: 890px;
+  }
+  
+  .superhost-span {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .star-icon {
+    color: rgb(255, 56, 92);
+  }
+  
+  .superhost-icon {
+    color: rgb(255, 56, 92);
+  }
+  
+  .save-icon {
+    border-color: rgb(34, 34, 34);
+  }
+  
+  .rating {
+    font-weight: bold;
+  }
+  
+  .superhost {
+    color: rgb(113, 113, 113);
+  }
+  
+  .location {
+    color: rgb(113, 113, 113);
+    font-weight: 600;
+    text-decoration: underline;
+  }
+  
+  .button {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  
+  .button:hover {
+    background-color: #D3D3D3;
+    cursor: pointer;
+  }
+  
+  .first-cell > img {
+    height: 295px;
+    width: auto;
+  }
+  
+  .second-cell > img {
+    height: 140px;
+  }
+  
+  .third-cell > img {
+    height: 140px;
+  }
+  
+  .fourth-cell > img {
+    height: 140px;
+  }
+  
+  .fifth-cell > img {
+    height: 140px;
+  }
+  
+  .first-cell {
+    grid-row: 1 / 3;
+  }
+  
+  .right-button {
+    float: right;
+  }
